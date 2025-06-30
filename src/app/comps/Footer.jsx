@@ -1,8 +1,15 @@
 import Image from "next/image";
 import { FaFacebookF, FaTwitter, FaInstagram, FaPinterestP } from 'react-icons/fa';
+import { Josefin_Sans } from "next/font/google";
+
+const josefin = Josefin_Sans({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+});
 const Footer = () => {
   return (
-    <footer className="mx-18">
+    <div className={josefin.className}>
+     <footer className="mx-18 mt-24">
       <div className="flex flex-row justify-between">
         <div className="flex-1 mt-48 ml-10 leading-3">
           <p className="inline-block border-y border-[#ff9900] mb-12 text-xl px-1">CONTACT</p>
@@ -65,7 +72,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
+     </footer>
+    </div>
+   
   );
 };
 

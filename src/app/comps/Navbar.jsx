@@ -6,7 +6,7 @@ const Navbar = () => {
             <div className="flex items-start ml-16 mr-36">
                 <Image src="/logo.png" alt="Logo" width={75} height={75} />
             </div>
-            <div>
+            <div  className="cursor-pointer ">
                 <a className="font-bold mx-10">HOME </a>
                 <a className="font-bold mx-10">ABOUT </a>
                 <a className="font-bold mx-10">MENU </a>
@@ -14,11 +14,11 @@ const Navbar = () => {
                 <a className="font-bold mx-10">CONTACT </a> 
            </div>
            <div className="flex items-end ml-auto mr-16">
-            <button 
-             className="bg-[#ff9900] w-24 h-8 rounded-lg cursor-pointer hover:bg-amber-600 transition duration-300 ease-in-out font-bold text-white"
+            <div
+             className="items-center p-2 tracking-widest justify-center text-center bg-[#ff9900] w-28 h-10 rounded-lg cursor-pointer hover:bg-amber-600 transition duration-300 ease-in-out font-bold text-white"
             >
                 <Link href="/login">LOGIN</Link>                
-            </button>
+            </div>
            </div>
         </nav>
     );
