@@ -2,13 +2,7 @@ import Image from "next/image";
 import { FaCocktail } from "react-icons/fa";
 import { GiSalad, GiChefToque, GiFruitBowl } from "react-icons/gi";
 import { MdRamenDining } from "react-icons/md";
-import { Karla } from "next/font/google";
 import { Cormorant_Infant } from "next/font/google";
-
-const karla = Karla({
-  subsets: ["latin"],
-  weight: "400",
-});
 
 const cormorant = Cormorant_Infant({
   subsets: ["latin"],
@@ -17,7 +11,7 @@ const cormorant = Cormorant_Infant({
 
 const About = () => {
   return (
-    <div className={karla.className}>
+    <div>
       <div className="bg-white">
         <div className="bg-white p-44 grid grid-cols-2 gap-10">
           <div className="gap-4 flex flex-col">
@@ -164,18 +158,33 @@ const About = () => {
             </div>
           </div>
         </div>
-       < div className="w-full h-[500px] flex items-center justify-center bg-cover bg-center bg-[url('/2.png')]">
-       <div className="bg-white opacity-[47%] w-2/3 h-96 flex flex-col py-16 items-center">
-        <h1 className="text-gray-400 font-bold inline-block border-y-1 border-amber-300">RESERVATION</h1>
-        <h1 className="text-gray-400 font-extrabold text-4xl">Book your table now</h1>
-        <form>
-        <div className="flex ">
-          <input type="text" placeholder="Name" className="w-80 h-12 mt-6 px-4 bg-white rounded-lg border border-gray-300 focus:outline-none focus:border-gray-700"/>
-          <input type="text" placeholder="Name" className="w-80 h-12 mt-6 px-4 bg-white rounded-lg border border-gray-300 focus:outline-none focus:border-gray-700"/>
-
+             <div className="w-full h-[1000px] gap-12 flex items-center mb-24 justify-center bg-cover bg-center bg-[url('/8.jpg')]">
+        <div className="bg-white/50 w-2/3 py-44 px-16 flex flex-col items-center">
+          <h1 className="text-white font-bold inline-block border-y-1 mb-6 tracking-widest border-amber-300">RESERVATION</h1>
+          <h1 className="text-white font-extrabold text-4xl">Book your table now</h1>
+          <form className="w-full">
+            <div className="flex gap-12 w-full">
+              <div className="flex-1">
+                <input type="text" placeholder="Name" className="h-16 mt-6 px-4 text-black text-xl bg-white rounded-lg border border-gray-300 focus:outline-none w-full"/>
+              </div>
+              <div className="flex-1">
+                <input type="text" placeholder="Email" className="h-16 mt-6 px-4 bg-white text-black text-xl rounded-lg border border-gray-300 focus:outline-none w-full"/>
+              </div>
+            </div>
+            <div className="flex items-center gap-8 w-full">
+              <div className="flex-1">
+                <input type="text" placeholder="Person" className="h-16 mt-6 px-4 bg-white text-black text-xl rounded-lg border border-gray-300 focus:outline-none w-full"/>
+              </div>
+              <div className="flex-1">
+                <input type="text" placeholder="Timing" className="h-16 mt-6 px-4 bg-white text-black text-xl rounded-lg border border-gray-300 focus:outline-none w-full"/>
+              </div>
+              <div className="flex-1">
+                <input type="text" placeholder="Date" className="h-16 mt-6 px-4 bg-white text-black text-xl rounded-lg border border-gray-300 focus:outline-none w-full"/>
+              </div>
+            </div>
+            <button className="w-64 h-20 rounded-lg text-2xl font-bold text-gray-950 mx-auto block bg-[#ff9900] mt-12">Book a Table</button>
+          </form>
         </div>
-        </form>
-       </div>
       </div>
       </div>
     </div>

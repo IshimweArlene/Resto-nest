@@ -1,19 +1,13 @@
 import Image from "next/image";
 import { Archivo_Black } from "next/font/google";
-import { Karla } from "next/font/google";
 import { FaMapMarkerAlt, FaClock, FaStar, FaClipboardList } from "react-icons/fa";
 import { MdMenuBook } from "react-icons/md";  
 import { BsCalendar2Date } from "react-icons/bs";
 import { GiScooter } from "react-icons/gi";
 
-const karla = Karla({
-  subsets: ["latin"],
-  weight: "400",
-});
-
 const Menu = () => {
   return (
-    <div className={karla.className}>
+    <div>
       <div className="bg-white py-12">
         <div className="text-center px-44">
           <p className="inline-block border-y border-[#ff9900]  text-2xl tracking-widest text-black px-1">

@@ -1,13 +1,9 @@
 import Link from "next/link";
 import { FcGoogle } from "react-icons/fc";
-import { Karla } from "next/font/google";
- const karla = Karla({
-    subsets: ['latin'],
-    weight: ['400', '700'], 
-});
+
 const Login = () => {
     return (
-        <div className={karla.className}>
+        <div>
          <div className="flex-1 flex flex-col items-center min-h-screen bg-white">
             <form className="w-2/3 bg-[#FFF6EA] p-8 rounded-lg my-20">
                 <div className="text-center mt-10 mb-10">

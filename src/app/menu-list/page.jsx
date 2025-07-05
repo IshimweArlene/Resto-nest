@@ -1,14 +1,8 @@
 'use client';
 import { useRouter } from "next/navigation";
-import { Karla } from "next/font/google";
 import { FaSearch, FaStar } from "react-icons/fa";
 import Image from "next/image";
 import { use } from "react";
-
-const karla = Karla({
-  subsets: ["latin"],
-  weight: "400",
-});
 
 const List = () => {
   const router = useRouter();
@@ -18,7 +12,7 @@ const List = () => {
   }
   
   return (
-    <div className={`${karla.className} bg-white py-24 `}>
+    <div className="bg-white py-24 ">
       <div className="text-center px-44">
         <p className="inline-block border-y border-[#ff9900]  text-2xl tracking-widest text-black px-1">
           MENU

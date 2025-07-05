@@ -1,12 +1,8 @@
-import { Karla } from "next/font/google";
 import Image from "next/image";
-const karla = Karla({
-  subsets: ["latin"], 
-    weight: "400",
-});
+
 const Reservation = () => {
     return (
-        <div className={karla.className}>
+        <div>
           <div className="bg-white p-24 flex flex-col items-center">
             <h1 className="text-xl text-gray-950 inline-block border-y-1 tracking-widest border-amber-300">RESERVATION</h1>
             <p className="text-gray-900 text-5xl mt-3 font-bold">Book The Seat Now Here Easily</p>
