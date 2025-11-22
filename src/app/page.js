@@ -87,7 +87,7 @@ export default function Home() {
                 height={900}
               />
             </div>
-            <div className="px-9 border-l-1 border-gray-300 ">
+            <div className="px-9 border-l border-gray-300 ">
               <div>
                 <h1 className="font-bold text-black text-4xl mb-3">The story</h1>
                 <p className="text-gray-700 text-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste rem ipsam expedita,
@@ -248,7 +248,7 @@ export default function Home() {
        
       <div className="bg-slate-100 py-32">
         <div className="text-center text-black">
-          <h1 className="text-xl mb-3 border-y-1 border-amber-300 inline-block tracking-widest font-semibold">TESTIMONIAL</h1>
+          <h1 className="text-xl mb-3 border-y border-amber-300 inline-block tracking-widest font-semibold">TESTIMONIAL</h1>
           <h1 className="text-5xl font-semibold mb-4 text-black">What our clients say</h1>
           <p className=" text-2xl font-normal">We love to hear from our customers, so please leave a comment or say hello in email</p>
         </div>
@@ -262,7 +262,7 @@ export default function Home() {
                   <p className="text-sm text-gray-300">Salt Lake City</p>
                 </div>
               </div>
-              <p className="mt-6 max-w-md text-gray-200 pt-2 text-sm border-t-1 border-gray-400">
+              <p className="mt-6 max-w-md text-gray-200 pt-2 text-sm border-t border-gray-400">
                <i> "It is professional, considers everyone's time, can think about the whole
                 problem. There are many variations of passages of Lorem Ipsum."</i>
               </p>
@@ -278,7 +278,7 @@ export default function Home() {
                   <p className="text-sm text-gray-300">Salt Lake City</p>
                 </div>
               </div>
-              <p className="mt-6 max-w-md text-gray-200 pt-2 text-sm border-t-1 border-gray-400">
+              <p className="mt-6 max-w-md text-gray-200 pt-2 text-sm border-t border-gray-400">
                <i> "It is professional, considers everyone's time, can think about the whole
                 problem. There are many variations of passages of Lorem Ipsum."</i>
               </p>
@@ -294,7 +294,7 @@ export default function Home() {
                   <p className="text-sm text-gray-300">Salt Lake City</p>
                 </div>
               </div>
-              <p className="mt-6 max-w-md text-gray-200 pt-2 text-sm border-t-1 border-gray-400">
+              <p className="mt-6 max-w-md text-gray-200 pt-2 text-sm border-t border-gray-400">
                <i> "It is professional, considers everyone's time, can think about the whole
                 problem. There are many variations of passages of Lorem Ipsum."</i>
               </p>
@@ -303,7 +303,7 @@ export default function Home() {
        </div>
 
        <div className="text-center text-black px-96">
-          <h1 className="text-xl mb-3 border-y-1 border-amber-300 inline-block tracking-widest font-semibold">BLOG</h1>
+          <h1 className="text-xl mb-3 border-y border-amber-300 inline-block tracking-widest font-semibold">BLOG</h1>
           <h1 className="text-5xl font-semibold mb-4 text-black">Be First Who Read News</h1>
           <p className=" text-2xl text-gray-800 font-light">We love to hear from our customers, so please leave a comment or say hello in email</p>
         </div>
@@ -313,8 +313,8 @@ export default function Home() {
             <Image src={"/6.png"} alt="Dish Image" width={900} height={900} className="z-10 w-full mt-10 " />
             <div className="bg-slate-100 py-6 pl-6 pr-6 shadow-2xl">
               <div className="flex my-6 gap-6 ml-14">
-                <h1 className="text-black border-y-1 border-amber-300 tracking-widest text-lg font-medium">RESTAURANTS</h1>
-                <h1 className="text-black border-y-1 border-amber-300 tracking-widest text-lg font-medium">FEB 22, 2021</h1>
+                <h1 className="text-black border-y border-amber-300 tracking-widest text-lg font-medium">RESTAURANTS</h1>
+                <h1 className="text-black border-y border-amber-300 tracking-widest text-lg font-medium">FEB 22, 2021</h1>
               </div>
               <h1 className="text-gray-900 text-2xl px-14 mr-14 text-start font-bold">The Most Popular Delicious Food Of Mediterranean Cuisine</h1>
               <p className="text-gray-600 px-14 mt-6">Capitalize on low-hanging fruit to identify a ballpark value added matrix economically and the creative activity to beta test override the food quality.</p>  
@@ -325,8 +325,8 @@ export default function Home() {
             <Image src={"/7.png"} alt="Dish Image" width={900} height={900} className="z-10 w-full mt-10 " />
             <div className="bg-slate-100 py-6 pl-6 pr-6 shadow-2xl">
               <div className="flex my-6 gap-6 ml-14">
-                <h1 className="text-black border-y-1 border-amber-300 tracking-widest text-lg font-medium">RESTAURANTS</h1>
-                <h1 className="text-black border-y-1 border-amber-300 tracking-widest text-lg font-medium">FEB 22, 2021</h1>
+                <h1 className="text-black border-y border-amber-300 tracking-widest text-lg font-medium">RESTAURANTS</h1>
+                <h1 className="text-black border-y border-amber-300 tracking-widest text-lg font-medium">FEB 22, 2021</h1>
               </div>
               <h1 className="text-gray-900 text-2xl px-14 mr-14 text-start font-bold">The Most Popular Delicious Food Of Mediterranean Cuisine</h1>
               <p className="text-gray-600 px-14 mt-6">Capitalize on low-hanging fruit to identify a ballpark value added matrix economically and the creative activity to beta test override the food quality.</p>  
@@ -337,7 +337,7 @@ export default function Home() {
 
       <div className="w-full h-[1000px] gap-12 flex items-center mb-24 justify-center bg-cover bg-center bg-[url('/8.jpg')]">
         <div className="bg-white/50 w-2/3 py-44 px-16 flex flex-col items-center">
-          <h1 className="text-white font-bold inline-block border-y-1 mb-6 tracking-widest border-amber-300">RESERVATION</h1>
+          <h1 className="text-white font-bold inline-block border-y mb-6 tracking-widest border-amber-300">RESERVATION</h1>
           <h1 className="text-white font-extrabold text-4xl">Book your table now</h1>
           <form className="w-full">
             <div className="flex gap-12 w-full">
