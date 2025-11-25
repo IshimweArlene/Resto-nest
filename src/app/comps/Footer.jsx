@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div className={josefin.className}>
      <footer className="bg-black text-white pb-12 w-full">
-      <div className="flex flex-col md:flex-row justify-between px-6 sm:px-10 md:px-20 gap-10 md:gap-0">
+      <div className="flex flex-col lg:flex-row justify-between px-6 sm:px-10 lg:px-20 gap-10 lg:gap-0">
         <div className="flex-1 mt-10 md:mt-24 md:ml-10 leading-3 text-center md:text-left">
           <p className="inline-block border-y border-[#ff9900] mb-6 md:mb-12 text-lg md:text-xl px-1">CONTACT</p>
           <p className="text-lg md:text-xl mb-0.5">5 Rue Dalou, 75015 Paris</p>
