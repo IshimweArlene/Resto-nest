@@ -1,19 +1,19 @@
 import axios from "axios";
-const api = "https://resto-nest-backend-1.onrender.com/api/auth/register";
+const AUTH_BASE_URL = "https://resto-nest-backend-1.onrender.com/api/auth";
 
-export const registerUser = async (data:{
+export const registerUser = async (data: {
     name: string;
     email: string;
     password: string;
-
-}) =>{
-    const response = await axios.post(`${api}`, data);
+}) => {
+    const response = await axios.post(`${AUTH_BASE_URL}/register`, data);
     return response.data;
-}
-export const loginUser = async (data:{
-    name: string;
+};
+
+export const loginUser = async (data: {
     email: string;
     password: string;
-}) =>{
-    const response = await axios.post(`${api}/login`, data);
-}
+}) => {
+    const response = await axios.post(`${AUTH_BASE_URL}/login`, data);
+    return response.data;
+};
